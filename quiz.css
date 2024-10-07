@@ -1,0 +1,136 @@
+body{
+    background-color: rgb(251, 243, 243);
+    color: grey;
+}
+.top-bar{
+    background-color: royalblue;
+    color: white;
+    text-align: center;
+    height: 1.7em;
+    font-size: 1.9em;
+    border-bottom: 4px solid darkblue;
+    font-weight: bold;
+    padding-top: 5px;
+
+}
+.quiz-container{
+    background-color: white;
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 2em;
+    float: left;
+}
+
+.board{
+    margin-top: 2em;
+    float: right;
+    width: 30%;
+    
+}
+
+.quiz .slide .question{
+    text-align: center;
+    font-size: 1.5em;
+    padding-top: 0.6em;   
+}
+
+.answers{
+    
+    margin-top: 0.6em;
+}
+.answer{
+    margin-left: 35%;
+    padding: 0.6em;
+}
+.prev-next-btn{
+    text-align: center;
+    margin-top: 1.2em;
+    
+}
+.prev-btn{
+    margin-right: 6.5cm;
+}
+
+.prev-btn,.next-btn,.submit-btn{
+    padding: 0.4em;
+    font-size: 1.1em;
+    border-radius: 3px;
+    border: none;
+    font-weight: 400;
+    text-indent: 5px;
+}
+
+/* .submit-btn{
+background-color: #2fc00f;
+color: aliceblue;
+
+} */
+.submit-btn:hover{cursor: pointer;}
+.submit-wrapper{
+    text-align: center;
+    margin: 0.3cm;
+    padding-bottom: 0.3cm;
+    
+}
+.results{
+   text-align: center; 
+   margin-top: 1em;
+   font-size: 2em;
+   font-weight: bold;
+   color: white;
+   font-family: Arial, Helvetica, sans-serif;
+}
+img{
+    width: 30px;
+    height: 30px;
+    /* padding: 5px; */
+}
+.top-bar::before{
+    content: '📚';
+}
+.top-bar::after{
+    content: '📚';
+}
+.btn-container>button{
+    width: 4cm;
+    height: 0.7cm;
+    border-radius: 15px;
+    margin: 1px;
+    border: none;
+    background-color: rgb(228, 223, 223);
+
+}
+.board>h1{
+    height: 0.8cm;
+    width: 4cm;
+    font-size: 0.5cm;
+}
+
+
+@media screen and (width<670px){
+    .prev-btn{
+        margin-right: 1cm;
+    } 
+}
+@media screen and (width>750px) {
+    .board{
+        height: 360px;
+    }
+}
+
+#sad{
+    
+    background-image: url(/home/jtd/Downloads/sadface.gif);
+
+    
+}
+#celebration{
+    background-image: url(/home/jtd/Downloads/winning.gif);
+}
+
+.animate{
+    height: 5.5cm;
+    width: auto;
+    margin: 0cm 9cm;
+    padding-top: -10px;
+}
